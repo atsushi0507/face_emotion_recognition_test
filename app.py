@@ -6,11 +6,10 @@ import numpy as np
 from PIL import Image
 import scipy
 st.write(scipy.__version__)
-from feat import Detector
 import feat
-
-st.write(scipy.__version__)
 st.write(feat.__version__)
+from feat import Detector
+
 
 @st.cache_resource
 def load_detector():
