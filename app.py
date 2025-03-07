@@ -36,6 +36,7 @@ if img_file_buffer :
     st.markdown("#### あなたの表情は")
     st.markdown(f"### {emotion}です")
 
-    fig = image_prediction.plot_detections(poses=True)[0]
+    figs = image_prediction.plot_detections(poses=True)
 
-    st.pyplot(fig)
+    for fig in figs:
+        st.pyplot(fig)

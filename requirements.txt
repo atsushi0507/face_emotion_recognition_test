@@ -1,7 +1,7 @@
 matplotlib
 numpy
 Pillow
-py-feat
+py-feat==0.5.1
 streamlit
 opencv-python-headless
 scipy
