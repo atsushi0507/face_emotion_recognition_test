@@ -4,10 +4,12 @@ import numpy as np
 import cv2
 import numpy as np
 from PIL import Image
+st.write(scipy.__version__)
 from feat import Detector
 import scipy
 
 st.write(scipy.__version__)
+st.write(feat.__version__)
 
 @st.cache_resource
 def load_detector():
