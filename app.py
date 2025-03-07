@@ -5,6 +5,9 @@ import cv2
 import numpy as np
 from PIL import Image
 from feat import Detector
+import scipy
+
+st.write(scipy.__version__)
 
 @st.cache_resource
 def load_detector():
