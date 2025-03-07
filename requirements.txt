@@ -1,6 +1,6 @@
 matplotlib
 numpy
 Pillow
-py-feat==0.5.1
+git+https://github.com/cosanlab/py-feat.git
 streamlit
 opencv-python-headless
