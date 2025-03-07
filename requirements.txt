@@ -4,4 +4,3 @@ Pillow
 py-feat==0.5.1
 streamlit
 opencv-python-headless
-scipy<1.10.1
