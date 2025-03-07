@@ -1,6 +1,5 @@
 matplotlib
-numpy
 Pillow
-git+https://github.com/cosanlab/py-feat.git
+git+https://github.com/PyTables/PyTables.git
 streamlit
 opencv-python-headless
