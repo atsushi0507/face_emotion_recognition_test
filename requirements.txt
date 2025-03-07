@@ -1,5 +1,5 @@
 matplotlib
 Pillow
-git+https://github.com/PyTables/PyTables.git
+py-feat
 streamlit
 opencv-python-headless
