@@ -4,10 +4,6 @@ import numpy as np
 import cv2
 import numpy as np
 from PIL import Image
-import scipy
-st.write(scipy.__version__)
-import feat
-st.write(feat.__version__)
 from feat import Detector
 
 
